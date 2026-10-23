@@ -1,0 +1,396 @@
+<!DOCTYPE html> <!--Noob -->
+<html> <!--Kut element-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+   <link rel="stylesheet" href="/style.css">
+   <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/a/a5/Undertale.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"> 
+ <head> 
+    <title> Determination </title>
+    
+ </head> 
+ <body> 
+
+<style>
+
+@font-face {
+font-family: PC98;
+src: url(https://dl.dropbox.com/s/q6te1rmeglfy4bf/pc-9800.ttf);
+}
+
+    body
+	{
+     	font-family: PC98; 
+	/* background picture, picture was taken off some wallpaper website. */
+		background-image: url(https://steamcommunity.com/economy/profilebackground/items/391540/5ffb612a2f3ad0f7c2e7ac2ca3e75246e8f013ca.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		overflow: scroll;
+     
+		background-size: cover; 
+
+	}
+ 
+    ::-webkit-scrollbar {
+      width: 16px;
+      height: 16px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAFElEQVQIW2M4fPz0////GYAYyAIASnoKpV3w4kgAAAAASUVORK5CYII=");
+      image-rendering: pixelated;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+
+    ::-webkit-scrollbar-track:active {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAEElEQVQIW2No6+pjgAAgCwAWogM9VKrgGQAAAABJRU5ErkJggg==");
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-top: 1px solid #cccccc;
+      border-left: 1px solid #cccccc;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      box-shadow: inset 1px 1px 0 0 white, inset -1px -1px 0 0 #868a8e;
+      width: 16px;
+      height: 16px;
+      background-color: #cccccc;
+      z-index: 1;
+    }
+
+    ::-webkit-scrollbar-corner {
+      background-color: #cccccc;
+    }
+
+    ::-webkit-resizer {
+      width: 16px;
+      height: 16px;
+      background-color: #cccccc;
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAN0lEQVR4Ae3MgQUAMBRDwU5fFF05lb/CARTBw2Ulof0DxPtcwp3hNuEYnjbcEW4TjuFpwx3h9gMWGgZ2Y/PT2gAAAABJRU5ErkJggg==");
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      image-rendering: pixelated;
+    }
+
+    ::-webkit-scrollbar-button,
+    .scroll::-webkit-scrollbar-button {
+      border-top: 1px solid #cccccc;
+      border-left: 1px solid #cccccc;
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+      box-shadow: inset 1px 1px 0 0 white, inset -1px -1px 0 0 #868a8e;
+      display: block;
+      width: 16px;
+      height: 16px;
+      background-color: #cccccc;
+      image-rendering: pixelated;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+
+    ::-webkit-scrollbar-button:active,
+    .scroll::-webkit-scrollbar-button:active {
+      background-position: 2px 2px;
+    }
+
+    ::-webkit-scrollbar-button:horizontal:decrement,
+    .scroll::-webkit-scrollbar-button:horizontal:decrement {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAHklEQVQY02NgoBT8xyX8H5fwf1zCpOjAYwceV1EEAAO2D/HsQ4vsAAAAAElFTkSuQmCC");
+    }
+
+    ::-webkit-scrollbar-button:horizontal:increment,
+    .scroll::-webkit-scrollbar-button:horizontal:increment {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAHUlEQVQY02NgIB/8xy3xH7fEf9wS/0nUQZqrKAYAK44P8ZRmzLQAAAAASUVORK5CYII=");
+    }
+
+    ::-webkit-scrollbar-button:vertical:decrement,
+    .scroll::-webkit-scrollbar-button:vertical:decrement {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGklEQVR4AWMYxuA/SYphmETFhDX9x4mHGQAAcL4P8dQiMq8AAAAASUVORK5CYII=");
+    }
+
+    ::-webkit-scrollbar-button:vertical:increment,
+    .scroll::-webkit-scrollbar-button:vertical:increment {
+      background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAF0lEQVQY02NgoBf4jwJxSOHQhcNAOgMAWWAP8Rv2U3UAAAAASUVORK5CYII=");
+    }
+
+    ::-webkit-scrollbar-button:horizontal:increment:start,
+    .scroll::-webkit-scrollbar-button:horizontal:increment:start {
+      display: none;
+    }
+
+    ::-webkit-scrollbar-button:horizontal:decrement:end,
+    .scroll::-webkit-scrollbar-button:horizontal:decrement:end {
+      display: none;
+    }
+
+    ::-webkit-scrollbar-button:vertical:increment:start,
+    .scroll::-webkit-scrollbar-button:vertical:increment:start {
+      display: none;
+    }
+
+    ::-webkit-scrollbar-button:vertical:decrement:end,
+    .scroll::-webkit-scrollbar-button:vertical:decrement:end {
+      display: none;
+    }
+
+    ::-webkit-scrollbar-button:active,
+    .scroll::-webkit-scrollbar-button:active {
+      border-top: 1px solid #868a8e;
+      border-left: 1px solid #868a8e;
+      border-bottom: 1px solid #868a8e;
+      border-right: 1px solid #868a8e;
+      box-shadow: none;
+    }
+
+
+    a {
+  color: black;
+  box-shadow: inset 0 0 0 0 rgb(166, 110, 250); 
+   -webkit-transition: all ease 0.5s; 
+   -moz-transition: all ease 0.5s; transition: all ease 0.5s;
+}
+
+
+  button
+  {
+    width: 10px;
+    height: 10px;
+    padding: 0; 
+    border-radius: 40%; 
+    background-color: #808080; 
+    border: 1px; 
+    margin-right: 5px;
+  }
+  
+  .red                                       /* this is just to make it easier than naming dem diff purples :sob: */
+  {
+    background-color: #612374; 
+  }
+  
+  .yellow
+  {
+    background-color: #531964; 
+  }
+  
+  .green
+  {
+    background-color: #3a0c47; 
+  }
+
+
+.out.main
+{
+height: 425px;    /* change later if u feel like givign them diff height and stuff!*/
+width: 325px;
+top: 9em;
+left: 6em;
+display: flex;
+align-items: flex-start;
+}
+  
+
+
+
+</style>
+ 
+
+
+
+
+<div class="desktop"> 
+
+<div class="out main">
+<div class="left">
+<button class="red"></button><button class="yellow"></button></button><button class="green"></button>
+<br><br>
+<a onclick="loadPage('page1')"><img src="https://heuehrainf.carrd.co/assets/images/image02.jpg?v=6a0dc633" style="width: 90px;"></a> <!-- change the ryb it is not computer science related-->
+<br><br>
+<a onclick="loadPage('page2')"><img src="https://forum.affinity.serif.com/uploads/monthly_01_2015/post-3367-0-15232800-1421504836.png" style="width: 70px"></a>
+<br><br>
+<a onclick="loadPage('page3')"><img src="https://heuehrainf.carrd.co/assets/images/image03.jpg?v=6a0dc633" style="width: 90px;"></a>
+</div>
+<div class="right" id="content"> 
+</div>
+</div>
+
+<div class="out small">
+<div class="header">
+<button class="red"></button><button class="yellow"></button><button class="green"></button>
+<div class="title">kleurmodellen</div>
+</div>
+<div class="iner small">
+RGB: Rood, groen en blauw. <br> <br>
+Deze kleuren worden gecombineerd door middel van licht. Als je meer licht toevoegt krijg je een heldere resultaat. 
+Door deze drie lichtkleuren te combineren, kunnen miljoenen verschillende tinten worden gecreëerd. Zwart wordt gevormd door RGB (0, 0, 0),
+omdat hoe lager het getal, hoe donkerder de kleur. En een 0 betekent dat er geen licht aanwezig is.
+<br> <br>
+Wit wordt daarentegen gecreëerd door alle drie de kleuren op hun maximale intensiteit in te stellen, wat resulteert in RGB (255, 255, 255). 
+Voor een specifieke kleur moet je met de getallen experimenteren en voor elke kleur een andere intensiteit kiezen. 
+Een zuivere blauwe kleur is bijvoorbeeld RGB (0, 0, 255): er is geen rood of groen aanwezig, 
+terwijl het blauw op maximale helderheid staat. Als je de 255 bij het blauw zou veranderen in 200, krijg je een donkerdere blauw.
+<br><br><br>
+Hexcode: Een zescijferige alfanumerieke code die in webdesign en digitale media wordt gebruikt om een ​​specifieke kleur weer te geven. 
+<br><br>  
+Hexadecimale codes beginnen altijd met een # en de code vertelt een digitaal scherm hoe een specifieke kleur moet worden weergegeven. 
+De hashtag wordt gevolgd door drie paren tekens die de primaire lichtkanalen gebruiken, wat resulteert in: (#RRGGBB). 
+Het maakt gebruik van een hexadecimaal stelsel (basis 16), dat telt van 0-9, en vervolgens de letters A t/m F gebruikt om de getallen 10 t/m 15 weer te geven. 
+Dit werkt een beetje zoals RGB, waarbij 00 donker is en FF helder. De code werkt in principe hetzelfde als RGB, maar dan in een andere vorm.
+
+<br><br><br>
+CMYK: Cyaan, magenta, geel en zwart. <br><br>
+CMYK is een substractief kleurmodel dat wordt gebruikt in de drukindustrie. Het werkt door kleuren te creëren door het absorberen van licht.
+In tegenstelling tot RGB, dat licht gebruikt om kleuren te creëren, werkt CMYK door inkt op papier te gebruiken. 
+CMYK gaat ervan uit dat de basiskleur van het papier wit is, dus in tegenstelling tot RGB is CMYK (0,0,0,0) wit.
+Pas als je het getal verhoogt, wordt de kleur intenser.
+
+<br><br>
+Als je wilt weten waarom er verschillende kleurmodellen zijn en een visueel voorbeeld wilt zien van wat er gebeurt, 
+is hier een video die mij ook heeft geholpen het beter te begrijpen. <a href="https://www.youtube.com/watch?v=CJZADSZLN6U" target="_blank">Color models</a>
+
+
+
+</div>
+</div>
+
+
+
+<div class="out small two">
+<div class="header two">
+<button class="red"></button><button class="yellow"></button><button class="green"></button>
+<div class="title">invoer>processing>uitvoer</div>
+</div>
+<div class="iner small two">
+invoer: het aanleveren van gegevens, instructies of signalen aan een computer of elektronisch systeem
+<br><br>
+uitvoer: alle gegevens of signalen die een computer of programma verstuurt naar de buitenwereld. 
+<br><br>
+processing: iets onderwerpen aan een reeks handelingen, stappen of regels om een ​​specifiek resultaat of een verandering te bereiken.
+<br><br>
+Om te kunnen denken en werken, voert een machine vier basistaken uit: invoer, opslag, processing en ten slotte uitvoer.
+
+Bij invoer stuur je een signaal naar de computer. 
+Denk bijvoorbeeld aan het gebruik van een touchscreen: wanneer je het scherm aanraakt, registreert het apparaat je vinger en verstuurt het een signaal.
+
+Dit signaal voorziet het apparaat van informatie, die vervolgens in het geheugen (memory) wordt opgeslagen.
+Het apparaat haalt deze opgeslagen gegevens uit het geheugen en verwerkt ze. Hierbij wordt de informatie aangepast en vervolgens weer opgeslagen. 
+Dit proces herhaalt zich totdat de informatie volledig is verwerkt en klaar is voor uitvoer.
+<br><br>
+De manier waarop een computer gegevens uitvoert, hangt af van het specifieke doel waarvoor het apparaat is ontworpen. 
+Zo kan een computer via geluidsweergave audio laten horen, of via een beeldscherm tekst en afbeeldingen tonen. 
+Het hangt dus volledig van de toepassing af. 
+ Ik vond het eerst ingewikkeld, maar deze video heeft het heel goed uitgelegd.  <a href="https://www.youtube.com/watch?v=mCq8-xTH7jA" target="_blank">How computers work</a>
+<br><br>
+Fun fact, een computer kan ook een invoer zijn voor een andere en vice versa via het internet.
+
+</div>
+</div>
+
+
+
+<div class="out small three">
+<div class="header three">
+<button class="red"></button><button class="yellow"></button><button class="green"></button>
+<div class="title">binair</div>
+</div> 
+<div class="iner small three">
+binair: tweedelig, tweetallig of bestaand uit twee componenten. 
+<br><br>
+Hier heb ik het over binaire code en hoe het binaire stelsel in computers wordt toegepast. Om de binaire stelsel te kunnen begrijpen moet je eerst de basis dingen weten. 
+Het binaire stelsel gebruikt twee getallen om informatie op te slaan: 1 en 0. De getallen worden aan elkaar gekoppeld en omgezet in een lange reeks van aan- en uit-signalen. 
+<br><br>
+Elke afzonderlijke 0 of 1 wordt een 'bit' genoemd (een afkorting van *binary digit*, oftewel binair cijfer). 
+Een bit is de kleinste eenheid van informatie die een computer kan verwerken. Wanneer je 8 bits samenvoegt, 
+krijg je een 'byte'. Eén byte bevat voldoende informatie om één letter, zoals de letter A, weer te geven.
+<br><br>
+Je kunt ook tellen met het binaire stelsel. Dit is een specifieke manier om getallen te noteren. In plaats van tien verschillende cijfers (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) te gebruiken, kent het binaire stelsel slechts twee cijfers. 
+<br><br>    
+In ons gebruikelijke getalsysteem (het decimale stelsel) wordt de waarde van een cijfer tien keer zo groot naarmate je een positie naar links opschuift (eenheden, tientallen, honderdtallen).  
+Bij het binaire stelsel werkt dit anders: elke stap naar links betekent een verdubbeling van de waarde. In één byte ziet dat er als volgt uit:
+<br><br>
+128   64   32   16   8   4   2   1
+<br><br>
+Het cijfer uiterst rechts staat altijd voor 1. Hoe verder je naar links gaat, des te groter worden de waarden. 
+Om binair te tellen, plaats je een '1' bij de getallen die je wilt optellen, en een '0' bij de getallen die je niet wilt meetellen. 
+Laten we als voorbeeld '10110101' nemen.  
+<br>
+Als je kijkt naar de posities van de enen en deze waarden bij elkaar optelt, krijg je: <br> 128 + 32 + 16 + 4 + 1 = 181. '10110101' in het binaire stelsel staat dus voor 181! Als je naar beneden scrolt, vind je een spelletje waarmee je dit kunt oefenen.
+<br><br>
+Tot slot, zoals ik eerste zei, kun je met het binaire stelsel ook letters weergeven. Elke letter heeft een eigen binair getal. 
+Wil je weten welke binaire getallen bij welke letters horen? Zoek dan eens naar de 'ASCII-binaire tekentabel' (ASCII-Binary Character Table); 
+hierin staan ​​alle letters vermeld, inclusief hun bijbehorende getallen en binaire codes.
+
+Als je een meer visuele uitleg wilt, raad ik je aan <a href="https://www.youtube.com/watch?v=Ieq8AR8krrA&t=15s" target="_blank"> deze video </a> te bekijken, want die legt het ook heel goed uit. 
+Het laat je ook op een andere manier zien hoe je de binaire code van getallen kunt vinden!
+
+
+</div>
+</div>
+
+  <div class="navig"> 
+  <h2>Navigation</h2>
+
+  <a href="index.html">home</a>
+  <a href="binairstelsel.html"> here </a>
+  <a href="ai.html"> over ai </a>
+</div>
+
+
+
+
+</div>
+
+<div style="height: 900px;"></div>
+
+<!-- this adds the game! it was just copied from the site lol --> 
+<section class="binarybonanza">
+        <h2> <mark>  Try out the numbers yourself :p ↓↓  </mark> </h2>
+
+        <iframe
+            src="https://games.penjee.com/binary-bonanza/game.php"
+            title="Binary Bonanza"
+            width="700"
+            height="500"
+            scrolling=no
+            frameborder="0">
+        </iframe>
+    </section>
+
+<!--- replace #text01 with the id of the element you want draggable --->
+ 
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script>
+$( function() {
+$( ".out" ).draggable();
+} );
+</script>
+
+  <script>
+
+    const pages = {
+      page1: `<div class="RGB"></div>
+      <img src=" https://heuehrainf.carrd.co/assets/images/image02.jpg?v=6a0dc633 " style="width: 240px; margin-top:40px;">`,      
+      page2: `<div class=" Hex ">  </div>
+      <img src="https://forum.affinity.serif.com/uploads/monthly_01_2015/post-3367-0-15232800-1421504836.png" style="width: 240px; margin-top:30px;">`,
+      page3: `<div class="CMYK"></div>
+      <img src="https://heuehrainf.carrd.co/assets/images/image03.jpg?v=6a0dc633" style="width: 240px; margin-top:45px;">`,
+    } ;
+
+    function loadPage(pageKey) {
+      document.getElementById('content').innerHTML = pages[pageKey];
+    }
+
+    loadPage('page1');
+
+</script> 
+
+
+</html>

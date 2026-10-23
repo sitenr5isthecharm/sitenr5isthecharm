@@ -1,0 +1,590 @@
+/* self-explanatory */
+
+	
+.container {       
+height: 665px;
+width: 884px;
+margin:auto;
+position: relative;
+padding: 5px;
+z-index: 4;
+}
+/* first put css since thats gonna generally show how it looks n then if u add html its going to be organzied by it so its all nice and in place :3 ^ up is the border so it looks awesomely */
+       
+    .container-one {
+ border-width: 2px;
+  border-style: solid;
+  border-color: #000000;
+  background-image: url('https://sadhost.neocities.org/images/tiles/cubicblue.jpg');
+  background-repeat: repeat;
+  width: 880px;
+  position: relative;
+  left: 1px;
+  height: 150px;
+  box-shadow: 0 0 8px 8px rgb(0, 0, 0) inset;
+  z-index: 5;
+    }
+
+/*dont forget to make it neon!!!! and a diff color n stuff*/
+#name 
+{font-family: PC98;
+
+  font-size: 5em;
+
+  -webkit-text-stroke: 4px #001111;
+  -webkit-text-stroke-width: thin; 
+  color: #d7f7f4;
+  margin-top: 75px;
+  margin-left: 10px;
+}
+
+.outer 
+{
+border-width: 7px;   
+border-style: solid;
+border-image: url("https://i.imgur.com/6TCYo5p.png") 4 fill round;
+border-radius:15px;
+width: 115px;
+height: 116px;
+margin-top: 10px;
+margin-left: 7px;
+}
+
+.inner
+{
+  background-image: url('https://media.tenor.com/Rjz21BuY9mAAAAAe/frisk-dance-dancing-frisk.png');
+  background-size: cover;
+  width: 100%;
+height: 100%;
+margin-left: 2px;
+
+}
+
+.bg, .in { box-sizing: border-box;}
+
+.bg {
+/* for a plain background, kept just incase */
+background: #17333924;
+
+/* for image background. remove it if you want a plain BG */
+background-image:url(https://file.garden/ZWlUCY4S7Xz2vypS/archived%20backgrounds/colours/blue/blue042.jpg);
+background-repeat: repeat;
+background-size:cover;
+
+padding:12px; /* make number bigger/smaller for a bigger/smaller border */
+width:400%;
+border:1px solid black;
+position: relative;
+top: -7.5em;   /* to position it as u want */
+left: 138px;
+}
+
+.in {
+font-family: PC98;
+line-height: 1.125em; /* makes text closer together :p */
+background: #f8f6f6;
+color: #010202;
+padding:5px;
+border:1px solid black;
+height:103px; 
+overflow-y:auto; /* overflow generally adds a scroll! i considered removing it but i kinda like it so whatever */
+box-shadow: inset 13px 0 6px -10px rgb(66 66 66 / 30%), inset -13px 0 6px -10px rgb(66 66 66 / 30%), inset 0 13px 6px -10px #f0f0f0, inset 0 0 0 -10px rgb(66 66 66 / 30%); /* just some shadow in the box with text :p */
+}
+
+.intro {
+    background-image: radial-gradient(rgb(248, 249, 249) 30%, transparent 70%);
+  font-family: PC98;
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px #000000;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.ipad
+{border-radius: 10px;
+  padding: 1em 0.55em 1em 0.55em;
+  width: 19.5em;
+  height: 19.5em;
+  background: #397787;
+margin-left: -5px; 
+margin-top: 7px;
+}
+
+.apple
+{
+  height: 16.5em;
+  background: white;
+  border-radius: 2px;
+  border: 2px inset #6484a3; /* this is to add the texting-looking thing */
+}
+
+.four
+{
+    position: relative;
+    top: -7.5em;
+}
+
+.bubble
+{
+    border-radius: 0px 25px 25px 25px;
+  padding: 7px;
+  background: #83fffb;
+  font-family: pixel;
+  box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 56%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+  margin-bottom: 10px;
+  border: 1px solid #1d393f;
+}
+
+.bubble2
+{
+  border-radius: 25px 0px 25px 25px;
+  padding: 7px;
+  background: #e1eef0;
+  font-family: pixel;
+  box-shadow: inset 13px 0px 6px -10px rgb(66 66 66 / 56%), inset -13px 0px 6px -10px rgb(66 66 66 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(66 66 66 / 38%);
+  margin-bottom: 10px;
+  border: 1px solid #535c5c;
+}
+
+.chat
+{height: 15.5em;
+  width: 18em;
+  position: relative;
+  top: -16.125em;
+  left: 13px;
+  overflow-y: scroll; }
+
+.navi
+{
+    border: 3px solid #000000;
+  height: 200.5px;
+  background: white;
+  width: 281px;
+  position: relative;
+  top: -37.5em;
+  left: 595px;
+  box-shadow: inset 13px 0 6px -10px rgb(66 66 66 / 30%), inset -13px 0 6px -10px rgb(66 66 66 / 30%), inset 0 13px 6px -10px #f0f0f0, inset 0 0 0 -10px rgb(66 66 66 / 30%);
+}
+
+
+
+
+buttons /* didnt use this */
+{
+    border-radius: 50px;
+  border: 2px solid black;
+  font-family: pixel;
+  font-size: 1.25em;
+  color: rgb(0, 0, 0);
+  width: 276px;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.comm {
+width: 18em;
+height: 16.25em;
+border-radius: 15px;
+border: 1px solid white;
+box-shadow: inset 10px 0px 6px -10px rgba(66,66,66,0.565), inset -10px 0px 6px -10px rgba(66,66,66,0.565), inset 0px 10px 6px -10px #ffffff, inset 0px -10px 6px -10px rgba(66,66,66,0.376);
+background: radial-gradient(circle, rgb(0, 0, 0) 37%, #000000 100%);
+position: relative;
+top: -36.75em;
+  left: 595px;
+}
+
+
+.top
+{
+    background: #010101;
+font-family: PC98;
+text-align: center;
+  color: white;
+border-radius: 10px 10px 0 0;
+padding: 0.5em;
+box-shadow: inset 10px 0px 6px -10px rgba(66,66,66,0.565), inset -10px 0px 6px -10px rgba(66,66,66,0.565), inset 0px 10px 6px -10px #ffffff, inset 0px -10px 6px -10px rgba(255, 255, 255,0.76);
+filter: drop-shadow(0px 0px 1px black);
+  -webkit-text-stroke: 0.5px black;
+  width: 15em;
+  margin-left: 17px;
+}
+
+
+
+/* Navigation menu */
+.comm .nav {
+  margin-top:20px;
+  padding: 5px 12px;
+  font-family: PC98, monospace;
+}
+
+.comm .nav h2 {
+  color: cyan;
+  text-align: center;
+  font-size: 18px;
+  margin: 5px 0 15px;
+}
+
+.comm .nav a {
+  display: block;
+  box-sizing: border-box;
+  background: #000;
+  color: cyan;
+  border: 1px solid cyan;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 8px 0;
+  text-align: left;
+  text-decoration: none;
+}
+
+.comm .nav a:hover {
+  background: cyan;
+  color: black;
+}
+
+
+
+
+.bottom
+{
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+border-radius: 0px 0px 10px 10px;
+padding: 0.9em;
+box-shadow: inset 10px 0px 6px -10px rgba(66,66,66,0.565), inset -10px 0px 6px -10px rgba(66,66,66,0.565), inset 0px 10px 6px -10px #36bdd2c2, inset 0px -10px 6px -10px #36bdd2c2;
+filter: drop-shadow(0px 0px 1px black);
+  font-family: pixel;
+  color: rgb(248, 247, 247);
+  width: 14.2em;
+  margin-left: 17px;
+  height: 7em;
+  line-height: 1.375em;
+  overflow-y: scroll;
+}
+.undertale {      /* i had to make a whole new css class for it to stop being messy*/
+  position: absolute;
+  top: 480px;
+  left: 842px;
+  width: 245px;
+  height: 352px;
+}
+
+/* starting the second page, 
+im only gonna have 3 pages since i wanna put 
+inputetc/binary/color 
+together since theyre kinda related :p
+then ai on the third page since its the
+supposedly more interesting topic */
+
+  .desktop
+  {
+    position: absolute;
+    top: -3em;    /* set to 0 if u dont want the stuff moved arounddd :p */
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform-origin: top left; 
+  }
+
+    .out           /* make em look 3d~~~ */
+                       {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+  }
+
+ .left
+ {
+   border: 1px solid #808080;
+   border-right: none;
+   border-radius: 10px 0px 0px 10px;
+   height:405px;
+   width: 100px;
+   padding: 10px;
+   background: #fff   /* change color if u want to fit purple theme!! dont forget */
+   linear-gradient(0deg,rgba(255,255,255,1)0%, rgba(255,255,255,1)92%, rgba(225,225,225,1)0%);
+ }
+
+ .right
+ {
+    border: 1px solid #808080;
+   border-left: none;
+   border-radius: 0px 10px 10px 0px;
+   height:425px;
+   width: 250px;
+   background: #fff
+   
+   linear-gradient(0deg,rgba(255,255,255,1)0%, rgba(255,255,255,1)92%, rgba(225,225,225,1)0%);
+ }
+
+/* the beautof */
+ .header
+{
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-radius: 10px 10px 0px 0px;
+    height: 10px;
+    width: 300px;
+    padding: 10px;
+    background: #e1e1e1;
+    display: flex;
+}
+
+
+    
+.iner
+{
+    border-bottom: 1px solid #808080;
+    border-left: 1px solid  #808080;
+    border-right: 1px solid #808080;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    background: white;
+}
+
+.out.small
+{
+  height: 300px;
+  width: 321px;
+top: 2em;
+left: 35px;
+}
+
+    
+.iner.small 
+{
+overflow-y: scroll;
+overflow-x: hidden;
+width: 300px;
+height: 265px;
+}
+    
+    /* input processing output container */
+    
+    .header.two
+{
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-radius: 10px 10px 0px 0px;
+    height: 10px;
+    width: 310px;
+    padding: 10px;
+    background: #e1e1e1;
+    display: flex;
+}
+    
+    
+    .out.small.two
+{
+top: -35em;
+left: 67em;
+}
+
+    
+.iner.small.two
+{
+overflow-y: scroll;
+overflow-x: hidden;
+width: 310px;
+height: 345px;
+}    
+  
+
+    /* binary text container :p */
+
+
+    .header.three
+{
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-radius: 10px 10px 0px 0px;
+    height: 10px;
+    width: 390px;
+    padding: 10px;
+    background: #e1e1e1;
+    display: flex;
+}
+    
+    
+    .out.small.three 
+{
+top: -44em;
+left: 39em;
+}
+
+    
+.iner.small.three
+{
+overflow-y: scroll;
+overflow-x: hidden;
+width: 390px;
+height: 445px;
+}    
+    
+
+.navig 
+{
+    position: absolute;
+    top: 5em;
+    left: 35em;
+    width: 327px;
+    height: 170px;
+    background-color: rgb(0, 0, 0);
+      border: 1px solid #743db3;
+  border-radius: 6px;
+    z-index: 9999;
+    display: block;
+  }
+
+.navig h2 {
+  color: #743db3;
+  text-align: center;
+  font-size: 18px;
+  margin: 5px 14x 15px;
+}
+
+
+
+  .navig a {
+display: block;
+  box-sizing: border-box;
+  background: #000;
+  color: #743db3;
+  border: 1px solid #743db3;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 2px 8px;
+  text-align: left;
+  text-decoration: none;
+}
+  
+ .navig a:hover {
+    background-color: #743db3;
+    color: #000000;
+  }
+    
+
+
+/* page scroll, turns out its easier to jsut make more bodies and play around with it :D */
+html,
+body {
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.binarybonanza {
+    position: relative;
+    clear: both;
+    z-index: auto;
+    width: 100%;
+    max-width: 740px;
+    box-sizing: border-box;
+    margin: 0 auto 40px;
+    padding: 20px;
+    text-align: center;
+}
+
+.binarybonanza iframe {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    border: none;
+}
+
+/* room to scroll */
+body {
+    min-height: 200vh; 
+    padding-bottom: 20px;
+}
+
+/*here is the code for no scrollbar on the page, i wanted to keep the scrollbar for text containers but not for the page itself */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+  mark {
+    background-color:#8661c5;
+    color:black;
+    }
+
+  marktwo {
+    background-color:#947bbe;   /* for incase i wanna highlight something else, if it doesnt work, its fine.  it worked on phoenix code though. */
+    color:black;
+    }
+
+
+    /*
+    LAST PAGE FINALLYYYY ^_^
+    ABOTU AI
+    ABOUT AI
+    ABOUT AI
+    ABOUT AI
+    ABOUT AI
+    very simple page since i only have 
+    one bit of information and thers 
+    no point in making it complicated 
+    since its not like a focus on my
+     interests like the homepage :p
+    YIPPI IM ALMSOT DONEEEE
+    */
+
+
+h2, p {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+ 
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
+
+
+        .ai-container {
+      max-width: 700px;
+      min-height: 350px;
+      margin: 0 auto;
+      padding: 25px;
+      box-sizing: border-box;
+      border-radius: 15px;
+      background: #8f6f4f;
+      border: 2px solid #3b2b0d;
+      border-radius: 10px;
+      line-height: 1.7;
+    }
+
+    .ai-container h1 {
+      color: #000000;
+    }
+
+    /* not in use ok. */
